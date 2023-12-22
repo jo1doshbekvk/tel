@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+body {
+  font-family: " Roboto" sans-serif;
+}
+
+#header {
+  background: #939878;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header span {
+  color: white;
+  width: 32px;
+  height: 32px;
+}
+.realco {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.realco-text a {
+  color: #2a2c1f;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+.realco-text a:hover {
+  color: blue;
+}
+.btn1 {
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+  height: 42px;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.btn2 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  width: 159px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+}
+.hero {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-text h5 {
+  text-align: center;
+  width: 171px;
+  height: 29px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  color: #2a2c1f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.hero-text h1 {
+  padding: 30px 0;
+  color: #2a2c1f;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 67.2px; /* 120% */
+}
+.hero-text p {
+  color: #65665c;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  padding: 30px 0;
+}
+.btn3 {
+  color: #65665c;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: start;
+  width: 250px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.btn4 {
+  width: 154px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.magazin {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.works-text h1 {
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.magazin-text p {
+  color: #2a2c1f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  margin: 20px 0 0 0;
+}
+.works-title {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works-text {
+  text-align: center;
+}
+.works-nav span {
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fae8e1;
+  color: #cf6f49;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+.works-nav h1 {
+  color: #2a2c1f;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 30px;
+  padding: 10px 0;
+}
+.works-nav p {
+  color: #65665c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.comfort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comfort-text h5 {
+  text-align: center;
+  width: 107px;
+  height: 29px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  color: #2a2c1f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.comfort-text h1 {
+  color: #2a2c1f;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+.comfort-text p {
+  color: #65665c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+  padding: 20px 0;
+}
+.btr1 {
+  width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.btr2 {
+  width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
