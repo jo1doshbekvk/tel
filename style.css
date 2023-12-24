@@ -239,3 +239,147 @@ body {
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
+.process {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.process-text h5 {
+  text-align: center;
+  width: 127px;
+  height: 29px;
+  border-radius: 32px;
+  background: #e7e8e3;
+  color: #2a2c1f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.process-text h1 {
+  color: #2a2c1f;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 40px 0;
+}
+.process-text p {
+  color: #65665c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.present-t {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0 30px 0;
+}
+.proces-nav span {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #fae8e1;
+  color: #cf6f49;
+  font-size: 32px;
+  font-weight: 400;
+}
+.proces-nav h2 {
+  color: #2a2c1f;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.proces-nav p {
+  color: #65665c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.byt1 {
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  width: 172px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.byt2 {
+  width: 130px;
+  height: 40px;
+  padding: 8.094px 0px 7.906px 0px;
+  gap: 4px;
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+#area {
+  padding: 20px 0;
+}
+.area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.area h5 {
+  width: 92px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #e7e8e3;
+  color: #2a2c1f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+.area h1 {
+  color: #2a2c1f;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-text h3 {
+  padding: 20px 0;
+  color: #2a2c1f;
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-text h4 {
+  color: #2a2c1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-text p {
+  color: #65665c;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.card-icon {
+  display: flex;
+  align-items: center;
+}
+.card-icon h5 {
+  margin: 0 8px;
+
+  color: #65665c;
+  font-size: 16px;
+  font-weight: 400;
+}
